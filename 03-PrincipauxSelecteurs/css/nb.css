@@ -1,0 +1,35 @@
+body {
+    font-family: Verdana;
+}
+.accessibility {
+    position:absolute;
+    left:-15000px;
+}
+main h1 {
+    color:red;
+    text-align:right;
+}
+main p:first-of-type::first-letter {
+    font-size: 20pt;
+}
+#mainNav a:link {
+    color:white
+}
+#mainNav a:hover {
+    color:yellow
+}
+#mainNav a:active {
+    color:green
+}
+#mainHeader, #mainFooter {
+    background-color:red;
+}
+#mainHeader > h1 {
+    color:brown;
+}
+#frmContact input[type=text] {
+    color:chartreuse;
+}
+aside h1 {
+    color: green;
+}
