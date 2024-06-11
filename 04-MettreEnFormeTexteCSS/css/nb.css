@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --black: #333333;
+    --red: #C1272D;
+    --shaded-red: #DF9595;
+    --green: #00751F;
+    --white: #FFFFFF;
+    --tWhite: rgba(255,255,255,0.8);
+}
+
+body {
+    font-family: Raleway, Verdana, Geneva, Tahoma, sans-serif;
+    color:var(--black);
+}
+.accessibility {
+    position:absolute;
+    left:-15000px;
+}
+main p:first-of-type::first-letter {
+    font-size: 20pt;
+}
+#mainNav a:link {
+    color: var(--tWhite);
+    text-decoration: underline green dotted;
+}
+#mainNav a:hover {
+    color:var(--shaded-red);
+}
+#mainNav a:active {
+    color:var(--green);
+}
+#mainHeader, #mainFooter {
+    background-color: var(--red);
+    font-family: Cantarell, Verdana, Geneva, Tahoma, sans-serif;
+}
+#mainHeader > h1 {
+    color:brown;
+    font-size: 14pt;
+    font-weight: normal;
+    font-style:italic;
+    font-variant:small-caps;
+}
+#leftCol h1 {
+    color:red;
+    letter-spacing: .1em;
+}
+#leftCol p {
+    line-height: 1.3;
+    text-align: justify;
+}
+#frmContact input[type=text] {
+    color:chartreuse;
+}
+aside h1 {
+    color: green;
+}
+#mainFooter {
+    text-align: center;
+}
